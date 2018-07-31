@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
+  xmlns:SnakeView="nativescript-snakeview">
+  <StackLayout class="p-20">
+    <Button tap="{{ tap }}" text="Add Random Value"></Button>
+    <SnakeView:SnakeView min="0" max="100" values="{{ values }}" backgroundColor="blue"></SnakeView:SnakeView>
+  </StackLayout>
+</Page>
